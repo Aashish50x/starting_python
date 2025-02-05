@@ -1,0 +1,21 @@
+# Write a program to input eight numbers from the user and display all the unique 
+# numbers (once).
+
+set=set()
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+a=int(input("Enter the number:"))
+set.add(int(a))
+print(set)
